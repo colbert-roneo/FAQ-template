@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="faq.css">
+    <script src="faq.js"></script>
+</head>
+<body>
+    <div class="main">
+        <h1>FAQs</h1>
+        <section class="faq">
+            <div class="one">
+            <p class="d-inline-flex gap-1"><hr>
+                <button onclick="myFunction()" class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    What is the MEAN stack? 
+                </button><hr>
+                <button onclick="myFunction()" class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                    Why choose the MERN stack for web development?
+                  </button><hr>
+                  <button onclick="myFunction()" class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+                    How do MongoDB, Express.js, Angular, and Node.js work together in a MEAN stack application?
+                  </button><hr>
+                  <button onclick="myFunction()" class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+                    What are the main advantages of using MongoDB as the database in the MERN stack?
+                  </button><hr>
+                  <button onclick="myFunction()" class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
+                    How to set up a basic MERN stack application?
+                  </button><hr>
+              </p></div>
+              <div class="two">
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    The MEAN stack is a collection of JavaScript-based technologies used for developing web applications. It stands for MongoDB, Express.js, Angular, and Node.js.
+                </div>
+            </div>
+            <div class="collapse" id="collapseExample2">
+                <div class="card card-body">
+                    MERN stack allows for a seamless development process using a single language (JavaScript) for both client-side and server-side development, resulting in faster and more efficient application development.
+                </div>
+            </div>
+            <div class="collapse" id="collapseExample3">
+                <div class="card card-body">
+                    MongoDB stores data in a flexible, JSON-like format. Express.js is a lightweight framework for building web applications and APIs. Angular is a front-end framework for creating dynamic user interfaces. Node.js serves as the runtime environment that executes JavaScript on the server side.
+                </div>
+            </div>
+            <div class="collapse" id="collapseExample4">
+                <div class="card card-body">
+                    MongoDB’s flexible, schema-less nature allows for efficient data modeling and storage, which pairs well with JavaScript-based applications.
+                </div>
+            </div>
+            <div class="collapse" id="collapseExample5">
+                <div class="card card-body">
+                    To set up a MERN stack application, you need to install Node.js and npm, then use npm to install MongoDB, Express.js, and React. Next, create the necessary directory structure and configure each component to work together.
+                </div>
+            </div>
+              </div></div>
+        </section>
+    </div>
+</body>
+</html>

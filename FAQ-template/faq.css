@@ -1,0 +1,45 @@
+body{
+    background-image: url(faq.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    margin-top: 2%;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    text-shadow: 4px 4px 4px #5a5353;
+}
+section{
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    text-shadow: 4px 4px 4px #5a5353;
+}
+.faq{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px; 
+}
+.card{
+    font-size: large;
+    background-color: #33333376;
+    box-shadow: 4px 4px 4px #333;
+    border: 2px solid #333;
+    width:300px;
+    height:520px;
+    align-self: center;
+    padding: 10px;
+    margin-top: 100px;
+}
+.btn{
+    color: rgb(159, 142, 121);
+    text-align: left;
+    border: 0;
+}
